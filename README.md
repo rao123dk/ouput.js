@@ -38,4 +38,12 @@ The index of this number is: 3
  ```
  :end:
  
+ :arrow_right: ???
+ ```
+console.log(+new Date());
+
+Output:- Get Timestamp for now(i.e. equivalent to "new Date().getTime()")
+ ```
+ :end:
+ 
  
