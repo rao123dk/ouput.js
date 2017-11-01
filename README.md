@@ -45,6 +45,7 @@ console.log(+new Date());
 Output:- Get Timestamp for now(i.e. equivalent to "new Date().getTime()")
  ```
  :end:
+ 
  :arrow_right: ???
  ```
 console.log(true + true);
@@ -57,4 +58,21 @@ Output:- 1
  ```
  :end:
  
- 
+ :arrow_right: ???
+ ```
+function fun1() {
+   return
+   {
+      name: 'foo'
+   }
+}
+//
+function fun2() {
+   return {
+      name: 'foo'
+   }
+}
+
+output:- The first function return undefined and second method will return the object as expected. Parentheses play a major role so it should be handled with caution.
+ ```
+ :end:
