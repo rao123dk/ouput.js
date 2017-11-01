@@ -45,5 +45,16 @@ console.log(+new Date());
 Output:- Get Timestamp for now(i.e. equivalent to "new Date().getTime()")
  ```
  :end:
+ :arrow_right: ???
+ ```
+console.log(true + true);
+
+Output:- 2
+
+console.log(true + false);
+
+Output:- 1
+ ```
+ :end:
  
  
