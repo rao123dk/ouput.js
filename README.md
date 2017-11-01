@@ -76,3 +76,12 @@ function fun2() {
 output:- The first function return undefined and second method will return the object as expected. Parentheses play a major role so it should be handled with caution.
  ```
  :end:
+ 
+ :arrow_right: ???
+ ```
+ var arr = [1, 2, 10, 55, 9];
+ arr.length = 3;
+ console.log(arr);
+ Output:- [1, 2, 10] because its truncate the last 2 values of the array. i.e. it is similar to arr.splice(3); 
+ ```
+ :end:
