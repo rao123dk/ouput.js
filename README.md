@@ -1,7 +1,9 @@
 # ouput.js
+:question: :question: :question:
 #### ``` (()=>console.log("Guess Output!"))();```
 
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
  const arr = [10, 12, 15, 21];
     for (var i = 0; i < arr.length; i++) {
@@ -17,7 +19,8 @@ The reason for this is because the setTimeout function creates a function (the c
  ```
  :end:
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
 const arr = [10, 12, 15, 21];
 for (var i = 0; i < arr.length; i++) {
@@ -38,7 +41,8 @@ The index of this number is: 3
  ```
  :end:
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
 console.log(+new Date());
 
@@ -46,7 +50,8 @@ Output:- Get Timestamp for now(i.e. equivalent to "new Date().getTime()")
  ```
  :end:
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
 console.log(true + true);
 
@@ -58,7 +63,8 @@ Output:- 1
  ```
  :end:
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
 function fun1() {
    return
@@ -77,7 +83,8 @@ output:- The first function return undefined and second method will return the o
  ```
  :end:
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
  var arr = [1, 2, 10, 55, 9];
  arr.length = 3;
@@ -86,7 +93,8 @@ output:- The first function return undefined and second method will return the o
  ```
  :end:
 
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
  console.log(0.1 + 0.2 == 0.3);
  
@@ -103,7 +111,8 @@ console.log(num1 + num2 > shouldEqual - 0.001 && num1 + num2 < shouldEqual + 0.0
  Source :- [smashingmagazine](https://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/)
  :end:
 
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
  alert(new Array() == false); // true
  Output:- true
