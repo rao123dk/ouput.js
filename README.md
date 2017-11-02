@@ -114,3 +114,25 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  ```
  Source :- [smashingmagazine](https://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/#3-an-array-with-no-keys-false-about-truthy-and-falsy)
  :end:
+ 
+ :arrow_right: ???
+ ```
+ console.log([1,2,3] === [1,2,3]);
+ Output:- false
+ Explanation:- The array [1,2,3] is not equal to [1,2,3] because it’s simply a reference type. That’s common for most languages.
+ ```
+ :end:
+ 
+ 
+ :arrow_right: ???
+ ```
+ 
+ ```
+ :end:
+ 
+ 
+ :arrow_right: ???
+ ```
+ 
+ ```
+ :end:
