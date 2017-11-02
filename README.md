@@ -91,7 +91,7 @@ output:- The first function return undefined and second method will return the o
  console.log(0.1 + 0.2 == 0.3);
  
  Output:- false, because 0.1 + 0.2 = 0.30000000000000004.
- why ? 
+Explanation:- 
 This is where the problem starts. 0.1 is not really 0.1 but rather its binary equivalent, which is a near-ish (but not identical) value. In essence, as soon as you write the values, they are doomed to lose their precision. You might have just wanted two simple decimals, but what you get, as Chris Pine notes, is binary floating-point arithmetic. Sort of like wanting your text translated into Russian but getting Belorussian. Similar, but not the same.
 
 More is going on here, but it’s beyond the scope of this article (not to mention the mathematical capabilities of this author).
@@ -101,4 +101,16 @@ var num1 = 0.1, num2 = 0.2, shouldEqual = 0.3;
 console.log(num1 + num2 > shouldEqual - 0.001 && num1 + num2 < shouldEqual + 0.001); //true
  ```
  Source :- [smashingmagazine](https://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/)
+ :end:
+
+ :arrow_right: ???
+ ```
+ alert(new Array() == false); // true
+ Output:- true
+ Explanation:- To understand what’s happening here, you need to understand the concepts of truthy and falsy. These are sort of true/false-lite, which will anger you somewhat if you majored in logic or philosophy.
+
+I’ve read many explanations of what truthy and falsy are, and I feel the easiest one to understand is this: in JavaScript, every non-boolean value has a built-in boolean flag that is called on when the value is asked to behave like a boolean; like, for example, when you compare it to a boolean.
+
+ ```
+ Source :- [smashingmagazine](https://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/#3-an-array-with-no-keys-false-about-truthy-and-falsy)
  :end:
