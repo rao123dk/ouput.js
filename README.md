@@ -115,7 +115,8 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  Source :- [smashingmagazine](https://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/#3-an-array-with-no-keys-false-about-truthy-and-falsy)
  :end:
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
  console.log([1,2,3] === [1,2,3]);
  Output:- false
@@ -124,14 +125,22 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  :end:
  
  
- :arrow_right: ???
+ :arrow_right: 
+ :question:
  ```
+ console.log(new Array(3) == ",,");
+ Output:- true
+ Explanation:- == operator convert into(i.e. new Array(3).toString() = ",,"). 
+ so,
+ console.log(new Array(3) === ",,");
+ Output:- false
  
  ```
  :end:
  
  
- :arrow_right: ???
+ :arrow_right:
+ :question:
  ```
  
  ```
