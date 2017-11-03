@@ -151,6 +151,22 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  :arrow_right:
  :question:
  ```
+ console.log( '' == '0');
+ Output :- false
+ 
+ console.log( 0 == '');
+ Output :- true
+ 
+ console.log( 0 == '0');
+ Output :- true
+ Explanation:- use === instead of ==
+ ```
+ :end:
+ 
+ 
+ :arrow_right:
+ :question:
+ ```
  
  ```
  :end:
