@@ -167,6 +167,24 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  :arrow_right:
  :question:
  ```
+ var info = {
+  	"name" : "Dheeraj Kumar Rao",
+    "twitter" : "@rao123dk"
+
+			}
+var lang = {
+  	"first" : "C and C++",
+  	__proto__ : info
+  
+}
+console.log(lang.twitter);
+ Output :- @rao123dk Becsuse, Inheritance by __proto__ . [Here](https://hackernoon.com/understand-nodejs-javascript-object-inheritance-proto-prototype-class-9bd951700b29)
+ ```
+ :end:
+ 
+ :arrow_right:
+ :question:
+ ```
  
  ```
  :end:
