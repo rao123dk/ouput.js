@@ -182,9 +182,28 @@ console.log(lang.twitter);
  ```
  :end:
  
+ 
+ 
  :arrow_right:
  :question:
  ```
+ What keys are considered equal?
+ console.log(+0 == -0);
+ Output :- true
+ 
+ console.log(+0 === -0);
+ Output :- true
+ Explanation:- Because JavaScript’s numbers keep magnitude and sign separate, each nonnegative number has a negative, including 0. Please click below link for more.
+ ```
+ Source :- [Two Zeros](http://speakingjs.com/es5/ch11.html#two_zeros)
+ Source :- [exploringjs, What keys are considered equal? ](http://exploringjs.com/es6/ch_maps-sets.html#_what-keys-are-considered-equal)
+ 
+ :end:
+ 
+:arrow_right:
+ :question:
+ ```
+ 
  
  ```
  :end:
