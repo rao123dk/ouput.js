@@ -203,10 +203,12 @@ console.log(lang.twitter);
 :arrow_right:
  :question:
  ```
- What about 3rd arguments in setTimeout
+ What about 3rd arguments in setTimeout and SetInterval
  setTimeout(console.log, 1000, "I love JavaScript");
  Output:- I love JavaScript
  
+ setInterval(console.log, 1000, "I love JavaScript");
+ Output :- I love JavaScript (after every 1 sec)
  
  ```
  :end:
