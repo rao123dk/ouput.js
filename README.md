@@ -231,7 +231,7 @@ console.log(Math.floor(a) + 2);
 console.log(Math.round(a) + 2);
 console.log(~~a + 2);
 But If input_data = "100.11";
-then above some methods are not ablicable here. 
+then above some methods are not applicable in this condition. 
 Lets change,
 console.log(+a + 2);
 console.log(Number(a) + 2); 
@@ -240,9 +240,8 @@ console.log(a-0 + 2);
 
 Which is best for use ?
 So +, Number and * is fast compare to all.
-You can check [here](https://jsperf.com/casttonumber)
- 
  ```
+ You can check [here](https://jsperf.com/casttonumber)
  :end:
  
  :arrow_right:
