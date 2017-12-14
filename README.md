@@ -216,6 +216,38 @@ console.log(lang.twitter);
  :arrow_right:
  :question:
  ```
+ How to convert string into an integer ?
+ 
+ There are many way.
+ var input_data = "100";
+ console.log(input_data + 2); // output is 1002 so thats a problem.
+ Solution :- 
+console.log(+a + 2);
+console.log(Number(a) + 2); 
+console.log(1*a + 2);
+console.log(a-0 + 2);
+console.log(parseInt(a) + 2);
+console.log(Math.floor(a) + 2);
+console.log(Math.round(a) + 2);
+console.log(~~a + 2);
+But If input_data = "100.11";
+then above some methods are not ablicable here. 
+Lets change,
+console.log(+a + 2);
+console.log(Number(a) + 2); 
+console.log(1*a + 2);
+console.log(a-0 + 2);
+
+Which is best for use ?
+So +, Number and * is fast compare to all.
+You can check [here](https://jsperf.com/casttonumber)
+ 
+ ```
+ :end:
+ 
+ :arrow_right:
+ :question:
+ ```
  
  
  ```
