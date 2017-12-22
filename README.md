@@ -1,10 +1,13 @@
 # ouput.js
 :question: :question: :question:
-#### ``` (()=>console.log("Guess Output!"))();```
+#### 
+```javascript
+(()=>console.log("Guess Output!"))();
+```
 
  :arrow_right: 
  :question:
- ```
+ ```javascript
  const arr = [10, 12, 15, 21];
     for (var i = 0; i < arr.length; i++) {
         setTimeout(function() {
@@ -21,7 +24,7 @@ The reason for this is because the setTimeout function creates a function (the c
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
 const arr = [10, 12, 15, 21];
 for (var i = 0; i < arr.length; i++) {
   // pass in the variable i so that each function 
@@ -43,7 +46,7 @@ The index of this number is: 3
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
 console.log(+new Date());
 
 Output:- Get Timestamp for now(i.e. equivalent to "new Date().getTime()")
@@ -52,7 +55,7 @@ Output:- Get Timestamp for now(i.e. equivalent to "new Date().getTime()")
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
 console.log(true + true);
 
 Output:- 2
@@ -65,7 +68,7 @@ Output:- 1
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
 function fun1() {
    return
    {
@@ -85,7 +88,7 @@ output:- The first function return undefined and second method will return the o
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
  var arr = [1, 2, 10, 55, 9];
  arr.length = 3;
  console.log(arr);
@@ -95,7 +98,7 @@ output:- The first function return undefined and second method will return the o
 
  :arrow_right: 
  :question:
- ```
+ ```javascript
  console.log(0.1 + 0.2 == 0.3);
  
  Output:- false, because 0.1 + 0.2 = 0.30000000000000004.
@@ -113,7 +116,7 @@ console.log(num1 + num2 > shouldEqual - 0.001 && num1 + num2 < shouldEqual + 0.0
 
  :arrow_right: 
  :question:
- ```
+ ```javascript
  alert(new Array() == false); // true
  Output:- true
  Explanation:- To understand what’s happening here, you need to understand the concepts of truthy and falsy. These are sort of true/false-lite, which will anger you somewhat if you majored in logic or philosophy.
@@ -126,7 +129,7 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
  console.log([1,2,3] === [1,2,3]);
  Output:- false
  Explanation:- The array [1,2,3] is not equal to [1,2,3] because it’s simply a reference type. That’s common for most languages.
@@ -136,7 +139,7 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  
  :arrow_right: 
  :question:
- ```
+ ```javascript
  console.log(new Array(3) == ",,");
  Output:- true
  Explanation:- == operator convert into(i.e. new Array(3).toString() = ",,"). 
@@ -150,7 +153,7 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  
  :arrow_right:
  :question:
- ```
+ ```javascript
  console.log( '' == '0');
  Output :- false
  
@@ -166,7 +169,7 @@ I’ve read many explanations of what truthy and falsy are, and I feel the easie
  
  :arrow_right:
  :question:
- ```
+ ```javascript
  var info = {
   	"name" : "Dheeraj Kumar Rao",
     "twitter" : "@rao123dk"
@@ -186,7 +189,7 @@ console.log(lang.twitter);
  
  :arrow_right:
  :question:
- ```
+ ```javascript
  What keys are considered equal?
  console.log(+0 == -0);
  Output :- true
@@ -202,7 +205,7 @@ console.log(lang.twitter);
  
 :arrow_right:
  :question:
- ```
+ ```javascript
  What about 3rd arguments in setTimeout and SetInterval ?
  setTimeout(console.log, 1000, "I love JavaScript");
  Output:- I love JavaScript
@@ -215,7 +218,7 @@ console.log(lang.twitter);
  
  :arrow_right:
  :question:
- ```
+ ```javascript
  How to convert string into an integer ?
  
  There are many way.
@@ -246,7 +249,7 @@ So +, Number and * is fast compare to all.
  
  :arrow_right:
  :question:
- ```
+ ```javascript
  
  
  ```
