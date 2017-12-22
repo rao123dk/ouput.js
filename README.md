@@ -249,7 +249,7 @@ So +, Number and * is fast compare to all.
  
  :arrow_right:
  :question:
- ```javascript
+ ```
  
  
  ```
