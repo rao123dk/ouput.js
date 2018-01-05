@@ -225,21 +225,21 @@ console.log(lang.twitter);
  var input_data = "100";
  console.log(input_data + 2); // output is 1002 so thats a problem.
  Solution :- 
-console.log(+a + 2);
-console.log(Number(a) + 2); 
-console.log(1*a + 2);
-console.log(a-0 + 2);
-console.log(parseInt(a) + 2);
-console.log(Math.floor(a) + 2);
-console.log(Math.round(a) + 2);
-console.log(~~a + 2);
+	console.log(+a + 2);
+	console.log(Number(a) + 2); 
+	console.log(1*a + 2);
+	console.log(a-0 + 2);
+	console.log(parseInt(a) + 2);
+	console.log(Math.floor(a) + 2);
+	console.log(Math.round(a) + 2);
+	console.log(~~a + 2);
 But If input_data = "100.11";
 then above some methods are not applicable in this condition. 
 Lets change,
-console.log(+a + 2);
-console.log(Number(a) + 2); 
-console.log(1*a + 2);
-console.log(a-0 + 2);
+	console.log(+a + 2);
+	console.log(Number(a) + 2); 
+	console.log(1*a + 2);
+	console.log(a-0 + 2);
 
 Which is best for use ?
 So +, Number and * is fast compare to all.
@@ -249,7 +249,32 @@ So +, Number and * is fast compare to all.
  
  :arrow_right:
  :question:
+ ```javascript
+	function firstFunction() {
+        	console.log("Output from firstFunction");
+	}
+	>  firstFunction();
+	Output:- 
+	Output from firstFunction
+	<- undefined (Why undefined ?)
+	
+	function secondFunction() {
+		console.log("Output from secondFunction");
+  		return "Second function return value";
+	}
+	>  secondFunction();
+	Output:-
+  	Output from secondFunction
+	<- "Second function return value"
+	
+Explanation:-Calling firstFunction() will output the string that has been passed to console.log, but the function itself will not return a value as there is no return statement. Such functions return undefined. 
  ```
+ For more explanation [here](https://teamtreehouse.com/community/why-call-consolelog-on-a-function-when-its-already-logged-to-the-console-seems-redundant-same-effect)
+ :end:
+ 
+ :arrow_right:
+ :question:
+ ```javascript
  
  
  ```
