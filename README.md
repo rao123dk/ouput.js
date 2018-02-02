@@ -271,6 +271,16 @@ Explanation:-Calling firstFunction() will output the string that has been passed
  ```
  For more explanation [here](https://teamtreehouse.com/community/why-call-consolelog-on-a-function-when-its-already-logged-to-the-console-seems-redundant-same-effect)
  :end:
+ :arrow_right:
+ :question:
+ ```javascript
+console.log(Math.max() > Math.min());
+Output :- false
+Explanation:-Math.max([value1[, value2[, ...]]]) returns the largest of the given numbers. However, when no arguments are provided it returns the minimum possible value, which is -Infinity.
+As you guessed Math.min() returns Infinity when no arguments are provided, i.e. the highest possible value.
+ 
+ ```
+ :end:
  
  :arrow_right:
  :question:
