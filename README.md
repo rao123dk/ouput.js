@@ -43,6 +43,18 @@ The index of this number is: 2
 The index of this number is: 3
  ```
  :end:
+ :arrow_right: 
+ :question:
+ ```javascript
+var counter = 1;
+var output = (function(){
+  delete counter;
+  return counter;
+})();
+console.log(output);
+Output:- 1
+ ```
+ :end:
  
  :arrow_right: 
  :question:
