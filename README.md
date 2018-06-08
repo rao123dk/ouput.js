@@ -297,6 +297,15 @@ As you guessed Math.min() returns Infinity when no arguments are provided, i.e. 
  :arrow_right:
  :question:
  ```javascript
+ console.log('x.x.'.replace(/./, '#'));
+ 
+ Outrput :- "#.x."
+ ```
+ :end:
+ 
+ arrow_right:
+ :question:
+ ```javascript
  
  
  ```
